@@ -1,0 +1,181 @@
+[admin@localhost blue-green]$ kubectl run debug --rm -i --tty --image nicolaka/netshoot -- /bin/bash
+If you don't see a command prompt, try pressing enter.
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# 
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# 
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version BLUE</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# curl blue-green.udacityproject
+<html>
+<h1>This is version GREEN</h1>
+</html>
+debug:~# 

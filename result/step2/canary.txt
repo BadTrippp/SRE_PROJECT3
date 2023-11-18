@@ -1,0 +1,88 @@
+[admin@localhost nd087-c3-deployment-roulette]$ k get svc -n udacity
+NAME          TYPE           CLUSTER-IP       EXTERNAL-IP                                                                     PORT(S)        AGE
+blue-svc      LoadBalancer   172.20.102.235   a352cba6429924bc0aed6e6d27338bdf-21b2539198ae9450.elb.us-east-2.amazonaws.com   80:31069/TCP   5h13m
+canary-svc    ClusterIP      172.20.77.206    <none>                                                                          80/TCP         40s
+hello-world   LoadBalancer   172.20.94.134    a38164ddc1e0e4468bbf4a6325225c59-9c8aa3d35c9583a2.elb.us-east-2.amazonaws.com   80:32584/TCP   4h12m
+[admin@localhost nd087-c3-deployment-roulette]$ kubectl -n udacity run debug --rm -i --tty --image nicolaka/netshoot -- /bin/bash
+If you don't see a command prompt, try pressing enter.
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.77.206
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# 
